@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: black;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+#converter {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	max-width: 600px;
+	margin: 20px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+}
+
+#converter input,
+#converter select,
+#converter button {
+	font-size: 16px;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	flex-grow: 1;
+}
+
+#converter input[type="number"] {
+	width: 100%;
+}
+
+#converter #convert {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+#converter #convert:hover {
+	background-color: #0069d9;
+}
